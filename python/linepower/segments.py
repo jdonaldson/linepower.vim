@@ -115,6 +115,12 @@ def tagbar_sort_indicator(pl, override=None):
         return sort_indicator[sort]
 
 # -------------%<-------------
+# vaxe (haxe) segments
+# -------------%>-------------
+def vaxe_build(pl):
+    return vim_func_segment(pl, "vaxe#CurrentBuildPowerline")
+
+# -------------%<-------------
 # ruby (rvm, rbenv) sgements
 # -------------%>-------------
 

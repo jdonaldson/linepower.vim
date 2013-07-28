@@ -41,6 +41,7 @@
                 "tagbar_sort_indicator":    { "fg": "brightgreen", "bg": "darkestblue" },
                 "tagbar_currentfile":       { "fg": "white", "bg": "darkestblue", "attr": ["bold"] },
                 "asynccommand":             { "fg": "brightyellow", "bg": "gray2" },
+                "vaxe_build":               { "fg": "gray2", "bg": "gray7" },
                 "tagbar_statusline":        { "fg": "oldlace", "bg": "darkestblue" },
                 "previewwindow":            { "fg": "white", "bg": "darkorange" },
                 "quickfix":                 { "fg": "white", "bg": "brightestred" },

@@ -26,9 +26,9 @@
 		},
 		"file_directory": {
 			"args": {
-				"shorten_user": true, 
-				"shorten_cwd": true, 
-				"shorten_home": true 
+				"shorten_user": true,
+				"shorten_cwd": true,
+				"shorten_home": true
 			}
 		},
 		"line_current_symbol": {
@@ -57,9 +57,15 @@
 				"after": " "
 			},
 			{
+				"module" : "linepower.segments",
+				"name": "vaxe_build",
+				"priority": 10,
+				"draw_soft_divider": true
+			},
+			{
 				"name": "file_directory",
 				"priority": 20,
-				"draw_soft_divider": false 
+				"draw_soft_divider": false
 			},
 			{
 				"name": "file_name",
