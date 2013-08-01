@@ -34,6 +34,9 @@ def tagbar(matcher_info):
 def unite(matcher_info):
     return (str(getbufvar(matcher_info['bufnr'], '&filetype')) == 'unite')
 
+def vaxe(matcher_info):
+    ft = str(getbufvar(matcher_info['bufnr'], '&filetype'))
+    return ( ft == 'haxe' or ft == 'hxml')
 
 def vimfiler(matcher_info):
     return str(getbufvar(matcher_info['bufnr'], '&filetype')) == 'vimfiler'
